@@ -52,7 +52,6 @@
     "@types/jasmine": "^3.5.1",
     "@types/node": "^12.12.25",
     "chromedriver": "^79.0.0",
-    "is-ci": "^2.0.0",
     "jasmine": "^3.5.0",
     "npm-failsafe": "^0.4.1",
     "protractor": "^5.4.2",

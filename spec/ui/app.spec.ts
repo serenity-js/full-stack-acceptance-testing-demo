@@ -1,6 +1,6 @@
 import 'jasmine';
 
-describe('TodoMVC app', () => {
+describe(`TodoMVC app`, () => {
 
-    // time to write some tests!
+    it(`helps us learn Serenity/JS`);
 });

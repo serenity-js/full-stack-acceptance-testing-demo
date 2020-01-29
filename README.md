@@ -18,6 +18,7 @@ To use this project, you'll need:
 ```
 npm ci                  # installs the node modules
 npm run lint            # runs the code linter
+npm start               # starts the web server with a demo app
 npm test                # executes the example tests and generates the report under ./target/site/serenity
 ```
 

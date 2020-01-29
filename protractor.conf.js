@@ -8,15 +8,6 @@ const
 exports.config = {
     baseUrl: 'http://localhost:8080',
 
-    // Use the Chrome browser directly to avoid having to use the Selenium WebDriver server
-    chromeDriver: require(`chromedriver/lib/chromedriver`).path,
-    directConnect: true,
-
-    SELENIUM_PROMISE_MANAGER: false,
-
-    // https://github.com/angular/protractor/blob/master/docs/timeouts.md
-    allScriptsTimeout: 110000,
-
     // Tell Protractor to use the Serenity/JS framework Protractor Adapter
     framework:      'custom',
     frameworkPath:  require.resolve('@serenity-js/protractor/adapter'),
@@ -42,12 +33,20 @@ exports.config = {
         // we can disable the Angular-specific synchronisation in Protractor.
         browser.waitForAngularEnabled(false);
     },
+    SELENIUM_PROMISE_MANAGER: false,
+
+    // https://github.com/angular/protractor/blob/master/docs/timeouts.md
+    allScriptsTimeout: 110000,
 
     // Tell Jasmine to use the ts-node module to transpile TypeScript code in-memory.
     // This way we can avoid the additional transpilation step when we run the tests.
     jasmineNodeOpts: {
         requires: [ 'ts-node/register' ],
     },
+
+    // Use the Chrome browser directly to avoid having to use the Selenium WebDriver server
+    chromeDriver: require(`chromedriver/lib/chromedriver`).path,
+    directConnect: true,
 
     capabilities: {
         // Use Chrome to run the UI tests.
