@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template)
 
-This repository was created using the [Serenity/JS Jasmine Protractor Template](https://github.com/serenity-js/serenity-js-jasmine-protractor-template)
+Serenity/JS is a next generation acceptance testing framework. Learn more at [serenity-js.org](https://serenity-js.org)!
+
+This repository was created using the [Serenity/JS Jasmine Protractor Template](https://github.com/serenity-js/serenity-js-jasmine-protractor-template).
 
 ## Prerequisites
 
