@@ -1,14 +1,16 @@
 {
-  "name": "acceptance-tests",
+  "name": "full-stack-acceptance-testing-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "postinstall": "serenity-bdd update",
     "clean": "rimraf target",
-    "test": "failsafe clean test:execute test:report",
-    "test:execute": "protractor ./protractor.conf.js",
-    "test:report": "serenity-bdd run --features ./features",
+    "start": "node app",
+    "test": "failsafe clean test:api test:ui test:report",
+    "test:api": "jasmine --config=./jasmine.json --reporter=@serenity-js/jasmine",
+    "test:ui": "protractor ./protractor.conf.js",
+    "test:report": "serenity-bdd run",
     "lint": "tslint --project tsconfig.json --format stylish"
   },
   "repository": {
@@ -33,6 +35,13 @@
     "npm": ">= 6"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-healthcheck": "^0.1.0",
+    "todomvc-common": "^1.0.5",
+    "todomvc-app-css": "^2.3.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
     "@serenity-js/assertions": "next",
     "@serenity-js/core": "next",
     "@serenity-js/console-reporter": "next",

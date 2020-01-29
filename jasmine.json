@@ -1,0 +1,19 @@
+{
+    "spec_dir": "spec/api",
+
+    "spec_files": [
+        "*.spec.ts"
+    ],
+
+    "requires": [
+        "ts-node/register"
+    ],
+
+    "helpers": [
+        "setup.ts"
+    ],
+
+    "stopSpecOnExpectationFailure": true,
+
+    "random": true
+}
