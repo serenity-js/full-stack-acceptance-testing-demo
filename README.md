@@ -1,12 +1,8 @@
-# Serenity/JS Jasmine Protractor Template
+# Serenity/JS Full-Stack Acceptance Testing Demo 
 
 [![Build Status](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template)
 
-Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-to get started with acceptance testing your web applications using Serenity/JS, Jasmine and Protractor.
-
-**NOTE:** This repository uses an alpha version of Serenity/JS, and while its code is stable and unlikely to undergo
-any major changes before the official release, the documentation hasn't been published yet.
+This repository was created using the [Serenity/JS Jasmine Protractor Template](https://github.com/serenity-js/serenity-js-jasmine-protractor-template)
 
 ## Prerequisites
 
