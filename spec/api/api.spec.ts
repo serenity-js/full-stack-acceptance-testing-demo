@@ -1,14 +1,16 @@
 import 'jasmine';
 
-import { actorCalled, engage } from '@serenity-js/core';
-import { APIActors } from './screenplay';
+import { actorCalled } from '@serenity-js/core';
+import { CallAnApi } from '@serenity-js/rest';
 
 describe(`API`, () => {
 
-    beforeEach(() => engage(new APIActors()));
-
-    it(`provides information on the health of the server`, () =>
-        actorCalled('Apisitt').attemptsTo(
-            // interact with the API...
-        ));
+    it(`allows to determine if the server is up`, () =>
+        actorCalled('Apisitt')
+            .whoCan(
+                CallAnApi.at('http://localhost:8080'),
+            )
+            .attemptsTo(
+                // interact with the API...
+            ));
 });
