@@ -2,6 +2,7 @@ import 'jasmine';
 
 import { actorCalled } from '@serenity-js/core';
 import { CallAnApi } from '@serenity-js/rest';
+import { EnsureTheServerIsUp } from './screenplay';
 
 describe(`API`, () => {
 
@@ -11,6 +12,6 @@ describe(`API`, () => {
                 CallAnApi.at('http://localhost:8080'),
             )
             .attemptsTo(
-                // interact with the API...
+                EnsureTheServerIsUp(),
             ));
 });

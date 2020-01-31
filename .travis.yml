@@ -21,4 +21,5 @@ addons:
 
 script:
   - npm run lint
+  - npm start &   # you might want to use @serenity-js/local-server instead
   - npm test
