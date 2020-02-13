@@ -51,7 +51,7 @@
     "@serenity-js/serenity-bdd": "next",
     "@types/jasmine": "^3.5.1",
     "@types/node": "^12.12.25",
-    "chromedriver": "^79.0.0",
+    "chromedriver": "^80.0.1",
     "jasmine": "^3.5.0",
     "npm-failsafe": "^0.4.1",
     "protractor": "^5.4.2",
