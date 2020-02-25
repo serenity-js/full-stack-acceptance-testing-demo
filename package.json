@@ -49,7 +49,7 @@
     "@serenity-js/protractor": "next",
     "@serenity-js/rest": "next",
     "@serenity-js/serenity-bdd": "next",
-    "@types/jasmine": "^3.5.6",
+    "@types/jasmine": "^3.5.7",
     "@types/node": "^12.12.28",
     "chromedriver": "^80.0.1",
     "jasmine": "^3.5.0",
