@@ -4,7 +4,9 @@
 
 Serenity/JS is a next generation acceptance testing framework. Learn more at [serenity-js.org](https://serenity-js.org)!
 
-This repository was created using the [Serenity/JS Jasmine Protractor Template](https://github.com/serenity-js/serenity-js-jasmine-protractor-template).
+This repository was created using the [Serenity/JS Jasmine Protractor Template](https://github.com/serenity-js/serenity-js-jasmine-protractor-template) and contains code samples demonstrated in the [Full-Stack Acceptance Testing with Serenity/JS and the Screenplay Pattern](https://www.youtube.com/watch?v=djPMf-n93Rw) talk:
+
+[![Full-Stack Acceptance Testing with Serenity/JS and the Screenplay Pattern](https://img.youtube.com/vi/djPMf-n93Rw/0.jpg)](https://www.youtube.com/watch?v=djPMf-n93Rw)
 
 ## Prerequisites
 
