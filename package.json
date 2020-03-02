@@ -50,7 +50,7 @@
     "@serenity-js/rest": "next",
     "@serenity-js/serenity-bdd": "next",
     "@types/jasmine": "^3.5.7",
-    "@types/node": "^12.12.28",
+    "@types/node": "^12.12.29",
     "chromedriver": "^80.0.1",
     "jasmine": "^3.5.0",
     "npm-failsafe": "^0.4.1",
