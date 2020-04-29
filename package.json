@@ -42,7 +42,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@serenity-js/assertions": "^2.3.4",
+    "@serenity-js/assertions": "^2.3.6",
     "@serenity-js/core": "^2.3.4",
     "@serenity-js/console-reporter": "^2.3.4",
     "@serenity-js/jasmine": "^2.3.4",
