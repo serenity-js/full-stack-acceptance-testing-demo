@@ -44,7 +44,7 @@
   "devDependencies": {
     "@serenity-js/assertions": "^2.4.1",
     "@serenity-js/core": "^2.4.1",
-    "@serenity-js/console-reporter": "^2.3.6",
+    "@serenity-js/console-reporter": "^2.4.1",
     "@serenity-js/jasmine": "^2.4.1",
     "@serenity-js/local-server": "^2.3.6",
     "@serenity-js/protractor": "^2.4.1",
