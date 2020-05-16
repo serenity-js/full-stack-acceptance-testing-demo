@@ -1,6 +1,6 @@
 # Serenity/JS Full-Stack Acceptance Testing Demo 
 
-[![Build Status](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template.svg?branch=master)](https://travis-ci.com/serenity-js/serenity-js-jasmine-protractor-template)
+[![Build Status](https://travis-ci.com/serenity-js/full-stack-acceptance-testing-demo.svg?branch=master)](https://travis-ci.com/serenity-js/full-stack-acceptance-testing-demo)
 
 Serenity/JS is a next generation acceptance testing framework. Learn more at [serenity-js.org](https://serenity-js.org)!
 
