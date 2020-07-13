@@ -6,5 +6,5 @@ export const EnsureTheServerIsUp = () =>
     Task.where(`#actor ensures that the server is up`,
         Send.a(GetRequest.to('/healthcheck')),
         Ensure.that(LastResponse.status(), equals(200)),
-        Ensure.that(LastResponse.body(), property('uptime', isGreaterThan(0))),
+        Ensure.that(LastResponse.body<{ uptime: number }>(), property('uptime', isGreaterThan(0))),
     );
