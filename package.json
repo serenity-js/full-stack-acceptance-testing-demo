@@ -39,7 +39,7 @@
     "express-healthcheck": "^0.1.0",
     "todomvc-common": "^1.0.5",
     "todomvc-app-css": "^2.3.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@serenity-js/assertions": "^2.14.0",
