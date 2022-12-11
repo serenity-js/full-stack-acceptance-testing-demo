@@ -35,7 +35,7 @@
     "npm": ">= 6"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-healthcheck": "^0.1.0",
     "todomvc-common": "^1.0.5",
     "todomvc-app-css": "^2.3.0",
